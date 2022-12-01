@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 538221113106-eoo2ebmo7llrhp59gku67d1pda5nipsh.apps.googleusercontent.com
+            client-secret: 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
+#            scope: https://www.googleapis.com/auth/fitness.heart_rate.read, https://www.googleapis.com/auth/fitness.heart_rate.write, https://www.googleapis.com/auth/fitness.blood_pressure.read, https://www.googleapis.com/auth/fitness.blood_pressure.write
+logging:
+  level:
+    root: DEBUG
